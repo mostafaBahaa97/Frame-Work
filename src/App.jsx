@@ -5,10 +5,10 @@ import About from './About/About';
 import Portfolio from './Portfolio/Portfolio';
 import Contact from './Contact/Contact';
 import NotFound from './NotFound/NotFound';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import {  createHashRouter, RouterProvider } from 'react-router-dom';
 
 function App() {
- const x = createBrowserRouter([
+ const x = createHashRouter([
     {
       path : "",
       element : <Layout/>,children:[
